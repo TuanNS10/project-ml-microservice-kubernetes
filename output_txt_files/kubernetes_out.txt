@@ -1,14 +1,11 @@
-sanht@DESKTOP-1HQLL69 MINGW64 /d/udacity/cloud_devops/project-ml-microservice-kubernetes (main)
-$ kubectl port-forward devops-project 8000:80
+NAME             READY   STATUS    RESTARTS   AGE
+devops-project   1/1     Running   0          8h
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
 Handling connection for 8000
-sanht@DESKTOP-1HQLL69 MINGW64 /d/udacity/cloud_devops/project-ml-microservice-kubernetes (main)
-$ ./run_kubernetes.sh
-Error from server (AlreadyExists): pods "devops-project" already exists
 NAME             READY   STATUS    RESTARTS   AGE
-devops-project   1/1     Running   0          6m35s
+devops-project   1/1     Running   0          8h
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
